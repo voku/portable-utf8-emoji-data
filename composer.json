@@ -1,0 +1,42 @@
+{
+    "name": "voku/portable-utf8-emoji-data",
+    "description": "Ordered emoji mappings for portable-utf8.",
+    "type": "library",
+    "license": "(Apache-2.0 OR GPL-2.0-only)",
+    "homepage": "https://github.com/voku/portable-utf8-emoji-data",
+    "authors": [
+        {
+            "name": "Nicolas Grekas",
+            "email": "p@tchwork.com"
+        },
+        {
+            "name": "Hamid Sarfraz",
+            "homepage": "http://pageconfig.com/"
+        },
+        {
+            "name": "Lars Moelleken",
+            "homepage": "http://www.moelleken.org/"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Voku\\PortableUtf8EmojiData\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "@php tests/contract.php",
+        "check-data": "@php build/import.php"
+    },
+    "support": {
+        "issues": "https://github.com/voku/portable-utf8-emoji-data/issues",
+        "source": "https://github.com/voku/portable-utf8-emoji-data"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        }
+    }
+}

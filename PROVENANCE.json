@@ -1,0 +1,10 @@
+{
+  "upstream_repository": "https://github.com/voku/portable-utf8",
+  "upstream_commit": "151ece0a42390c49a301c602c9986aa86cd7a9e6",
+  "upstream_path": "src/voku/helper/data/",
+  "original_contract_commit": "28cb685c22cd829aba819406295c0763204c5c09",
+  "selection": "emoji.php",
+  "files": 1,
+  "representation": "Existing compact PHP arrays, copied byte-for-byte; ordered array semantics retained.",
+  "data_changes": "No mapping values changed during extraction."
+}
